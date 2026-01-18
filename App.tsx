@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { LandingView } from './views/LandingView';
-import { PairingView } from './views/PairingView';
-import { ResultsView } from './views/ResultsView';
-import { JoinView } from './views/JoinView';
-import { QuizCard } from './components/QuizCard';
-import { getQuestionsFromSeed } from './services/gameService'; // New Local Service
-import { AppState, Question, Answer } from './types';
+import { LandingView } from './views/LandingView.tsx';
+import { PairingView } from './views/PairingView.tsx';
+import { ResultsView } from './views/ResultsView.tsx';
+import { JoinView } from './views/JoinView.tsx';
+import { QuizCard } from './components/QuizCard.tsx';
+import { getQuestionsFromSeed } from './services/gameService.ts';
+import { AppState, Question, Answer } from './types.ts';
 import { AlertTriangle, Sparkles } from 'lucide-react';
 
 const App: React.FC = () => {
